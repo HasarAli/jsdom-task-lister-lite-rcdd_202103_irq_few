@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const ul = document.querySelector('ul');
+  const ul = document.querySelector('#tasks');
   const todoForm = document.querySelector('form');
   
   todoForm.addEventListener('submit', e => {
