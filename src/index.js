@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   const ul = document.querySelector('#tasks');
-  const todoForm = document.querySelector('form');
+  const todoForm = document.querySelector('#create-task-form');
   
   todoForm.addEventListener('submit', e => {
     e.preventDefault();
