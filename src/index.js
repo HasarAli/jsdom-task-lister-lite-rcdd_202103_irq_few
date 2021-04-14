@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     e.preventDefault();
     const formData = new FormData(e.target);
     const li = document.createElement('li');
-    li.innerText = `${formData.get('task')}\n${formData.get('due')}`;
+    li.innerText = formData.get('new-task-description');
     ul.appendChild(li);
   });
 });
